@@ -28,7 +28,7 @@
 **Roles of different used functions**
 
 
-**match_number_to_letter()**: ***Take a list with letters corresponding the numbers in the alphabet and return the numbers that there is***
+**match_letter_to_number()**: ***Take a list with letters corresponding the numbers in the alphabet and return the numbers that there is***
 
 |||||||||||
 

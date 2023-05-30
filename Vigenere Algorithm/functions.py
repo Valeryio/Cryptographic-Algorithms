@@ -83,8 +83,8 @@ def controling_text():
             return clear_text
         
         else:
-            control = input("Letters of your text are not in the alphabet! \nDo you want to try again? (Y/N) : ").lower()
-
+            control1 = input("Letters of your text are not in the alphabet! \nDo you want to try again? (Y/N) : ").lower()
+            control = control1.replace(" ", "")
         
     if(control == "n"):
         print("\n\nEnd of program, you entry is not valid!")

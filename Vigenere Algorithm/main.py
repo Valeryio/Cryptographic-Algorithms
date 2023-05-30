@@ -15,7 +15,7 @@ print('        |||||           ||||   |||||||||||||||   ||||||||||||   ||||     
 
 #Getting the value of the user, and verifiing if there are right!
 
-option = 0
+options = 0
 
 try : 
     options = int(input('\nHere is the implementation of Vigenere\'s cryptographic algorithm. \n What do you want to do : \n1- Encrypt \n2- Decrypt \n    Answer : ')) 
@@ -45,9 +45,9 @@ except ValueError:
 
         i +=1
 
-    if((options != 1) and (options != 2)):
-        print("\n\nEnd of program, you entry is not valid!")
-        sys.exit()
+if((options != 1) and (options != 2)):
+    print("\n\nEnd of program, you entry is not valid!")
+    sys.exit()   
 
 
 
