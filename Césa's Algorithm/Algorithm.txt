@@ -1,0 +1,24 @@
+##########################################-- Algorithms functions--##################################################
+
+1 - Je prends une phrase, qui peut comporter ou pas des nombres
+
+2 - Je debarasse la phrase de tous les espaces possibles
+
+3 - Je coupe chaque lettre que je met dans un tableau 
+
+4 - Je recupere seulement les caracteres qui sont des lettres dans un autre tableau 
+
+5 - Je fais correspondre toute les lettres aux differents numeros
+
+6 - Je fais une addition entre chacun de ces numeros et le shift
+
+7 - Je retourne dans la base si un numero est plus grand que 25 qui represente la lettre z
+
+8 - Je refais un matching entre ces chiffres et les lettres que je recupere dans un nouvveau tableau 
+
+9 - Je retourne vers ma chaine de debut et je la parcours 
+
+	a - Si je rencontre une lettre, je la remplace avec un element de ma nouvelle chaine
+	b - Si je me rends compte que la lettre precedente est majuscule, je remplace par la minuscule de la nouvelle
+
+
